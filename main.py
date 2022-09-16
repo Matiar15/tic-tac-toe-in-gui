@@ -156,8 +156,8 @@ player_turn_label = Label(window,
                           text="It's Player {} turn".format(players[0]))
 btns = creating_buttons()
 list_of_total_score = []
-list_of_current_score_X = []  # list that summs up player X choices
-list_of_current_score_O = []  # list that summs up player O choices
+list_of_current_score_X = []  # sumowanie wyborów gracza X
+list_of_current_score_O = []  # sumowanie wyborów gracza O
 list_of_buttons = [btns[0], btns[1], btns[2], btns[3], btns[4], btns[5], btns[6], btns[7], btns[8]]
 list_of_winners = [{0, 4, 8},
                    {6, 4, 2},
